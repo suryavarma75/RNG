@@ -72,8 +72,8 @@ function generate() {
     teams_cont.style.display = "block";
     lists_cont.innerHTML = "";
     let dummy_data = [...mod_data];
-    let max_lim = Math.floor(data.length / no_of_teams);
-    let rem = data.length % no_of_teams;
+    let max_lim = Math.floor(mod_data.length / no_of_teams);
+    let rem = mod_data.length % no_of_teams;
     let teams = {};
     for (let j = 0; j < no_of_teams; j++) {
         teams[j] = [];
